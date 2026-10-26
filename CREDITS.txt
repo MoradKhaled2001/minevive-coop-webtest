@@ -1,0 +1,12 @@
+Minevive - credits
+
+Sound effects by Little Robot Sound Factory - www.littlerobotsoundfactory.com (CC BY 3.0,
+https://creativecommons.org/licenses/by/3.0/)
+
+Also used under CC0 (no credit required, given with thanks):
+  Kenney - kenney.nl (impact, RPG, interface, UI, music jingle, casino and sci-fi sound packs)
+  rubberduck - OpenGameArt (RPG, creature, bang and breaking sound packs)
+  RandomMind - menu, day and night music; cynicmusic (cynicmusic.com, pixelsphere.org) - battle music
+  TinyWorlds - forest ambience; Wolfgang_ / Ted Kerr - crickets; PagDev - fire
+
+Fonts: Baloo 2 and Baloo Bhaijaan 2 by Ek Type (SIL Open Font License 1.1). Full sound register: Assets/_Project/Audio/README.md.

@@ -6,6 +6,13 @@
     <title>Minevive Co-op</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <style id="minevive-shell">
+      html, body { width:100%; height:100%; overflow:hidden; background:#17120e; }
+      #unity-container.unity-desktop { position:fixed; inset:0; left:0; top:0; transform:none; width:100%; height:100%; }
+      #unity-container.unity-desktop #unity-canvas { width:100% !important; height:100% !important; display:block; }
+      #unity-footer { display:none; }
+      #unity-canvas { background:#17120e; }
+    </style>
   
     <style>
       html, body { width: 100%; height: 100%; overflow: hidden; background: #17120e; }
@@ -60,12 +67,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Minevive_Coop_Beta_v25_20261024.loader.js";
+      var loaderUrl = buildUrl + "/site_v23.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Minevive_Coop_Beta_v25_20261024.data",
-        frameworkUrl: buildUrl + "/Minevive_Coop_Beta_v25_20261024.framework.js",
-        codeUrl: buildUrl + "/Minevive_Coop_Beta_v25_20261024.wasm",
+        dataUrl: buildUrl + "/site_v23.data",
+        frameworkUrl: buildUrl + "/site_v23.framework.js",
+        codeUrl: buildUrl + "/site_v23.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Hamza Mosleh",
         productName: "Minevive",
@@ -112,7 +119,8 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "100%"; canvas.style.height = "100%";
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
@@ -136,5 +144,6 @@
       document.body.appendChild(script);
 
     </script>
+      <a id="minevive-credits" href="CREDITS.txt" target="_blank" rel="noopener" style="position:fixed;right:8px;bottom:4px;font:11px sans-serif;color:#9a8f80;opacity:.6;z-index:10">Credits</a>
   </body>
 </html>

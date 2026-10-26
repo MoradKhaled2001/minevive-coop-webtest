@@ -1,0 +1,14 @@
+/Build/site_v23.data.br
+  Content-Type: application/octet-stream
+  Content-Encoding: br
+
+/Build/site_v23.framework.js.br
+  Content-Type: application/javascript
+  Content-Encoding: br
+
+/Build/site_v23.wasm.br
+  Content-Type: application/wasm
+  Content-Encoding: br
+
+/*
+  X-Content-Type-Options: nosniff

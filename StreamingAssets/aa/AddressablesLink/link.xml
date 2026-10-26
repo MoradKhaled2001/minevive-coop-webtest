@@ -127,6 +127,7 @@
     <type fullname="KeepPerksSO/Perk" preserve="nothing" serialized="true" />
     <type fullname="MenuCharacterPanel/Portrait" preserve="nothing" serialized="true" />
     <type fullname="WeaponSO/ChainStep" preserve="nothing" serialized="true" />
+    <type fullname="BossTuning" preserve="nothing" serialized="true" />
     <type fullname="BuildingDefinition" preserve="nothing" serialized="true" />
     <type fullname="EnemyEffects" preserve="nothing" serialized="true" />
     <type fullname="EnemyRosterSO/Family" preserve="nothing" serialized="true" />
